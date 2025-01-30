@@ -89,3 +89,58 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+
+/* My own main content */
+.main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    height: 70vh;
+}
+
+.playlist__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main__content__title {
+    font-weight: 800;
+}
+
+.main__content__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card__list {
+    display:flex;
+    flex-direction: column;
+    gap: 2;
+    columns: 2;
+    border: 1px solid black;
+}
+
+.card__list__item {
+   display: grid;
+   justify-items: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-gap: 16px;
+   gap: 16px;
+   margin-bottom: 16px;
+}
+
+.cards {
+    position: relative; 
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+

@@ -14,7 +14,7 @@ body {
 
 .sidebar__navigation {
     background-color: #121212;
-    border-radius: 0px;
+    border-radius: 8px;
     padding: 16px 0 0 16;
 }
 
@@ -48,7 +48,7 @@ body {
 
 .library {
     background-color: #121212;
-    border-radius: 0px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -176,6 +176,7 @@ body {
     right: 0;
     background: linear-gradient(to right, #ae2896, #509bf5);
     padding: 15px 40px;
+    margin: 10px;
     display: flex;
     justify-content: space-between;
 }
