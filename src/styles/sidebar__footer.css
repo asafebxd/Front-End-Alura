@@ -167,7 +167,55 @@ body {
     border-radius: 20px;
 }
 
-.footer {
+/* ----------------------------------------- Alura footer ----------------------------------------- */
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.05);
+    background-color: #E7EBF0;
+}
+
+/* ----------------------------------------- My own footer clone ----------------------------------------- */
+
+/* .footer {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,18,182,1) 0%, rgba(105,111,201,1) 62%, rgba(0,212,255,1) 100%);
     bottom: 0;
@@ -219,4 +267,4 @@ body {
 .footer__content .footer__button:hover {
     transform: scale(1.2);
     background-color: #E7EBF0;
-}
+} */
